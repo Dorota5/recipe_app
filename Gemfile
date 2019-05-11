@@ -14,7 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 
 gem 'haml', '~> 5.0', '>= 5.0.4'
-
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
 group :development, :test do
   gem 'byebug'
