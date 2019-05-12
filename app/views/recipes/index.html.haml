@@ -1,5 +1,16 @@
+/ Welcome to recipies place!
+/ - @recipes.each do |recipe|
+/   = link_to recipe do 
+/     = image_tag recipe.image.url(:medium)
+/   %h2= link_to recipe.title, recipe
+
 Welcome to recipies place!
-- @recipes.each do |recipe|
-  = link_to recipe do 
-    = image_tag recipe.image.url(:medium)
-  %h2= link_to recipe.title, recipe
+- @recipes.each_slice(3) do |recipes|
+  .row
+    - recipes.each do |recipe|
+      .col-md-4
+        .recipe
+          .image_wrapper 
+            = link_to recipe do 
+              = image_tag recipe.image.url(:medium)
+            %h2= link_to recipe.title, recipe

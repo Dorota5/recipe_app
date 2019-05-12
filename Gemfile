@@ -16,6 +16,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'haml', '~> 5.0', '>= 5.0.4'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
+gem 'cocoon', '~> 1.2', '>= 1.2.12'
 
 group :development, :test do
   gem 'byebug'
