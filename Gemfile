@@ -20,7 +20,8 @@ gem 'cocoon', '~> 1.2', '>= 1.2.12'
 
 gem 'devise', '~> 4.6', '>= 4.6.2'
 
-gem 'pry', '~> 0.12.2'
+gem 'bootstrap-sass', '~> 3.3'
+gem 'pry', '~> 0.12.2', group: [:development, :test]
 
 group :development, :test do
   gem 'byebug'
