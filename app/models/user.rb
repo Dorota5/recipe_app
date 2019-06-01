@@ -5,4 +5,6 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :validatable
 
   has_many :recipes
+
+  validates :name, length: { minimum: 2 }
 end
