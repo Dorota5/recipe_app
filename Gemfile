@@ -18,7 +18,7 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
 gem 'cocoon', '~> 1.2', '>= 1.2.12'
 
-gem 'devise', '~> 4.6', '>= 4.6.2'
+gem 'devise', '~> 4.7'
 
 gem 'bootstrap-sass', '~> 3.3'
 gem 'pry', '~> 0.12.2', group: [:development, :test]
